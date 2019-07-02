@@ -12,7 +12,8 @@
 ## 工具
 [Git](https://git-scm.com/download)  
 [Visual Paradigm](https://www.visual-paradigm.com)  
-[flyway](https://flywaydb.org/getstarted/firststeps/maven)
+[flyway](https://flywaydb.org/getstarted/firststeps/maven)  
+[lombok](https://projectlombok.org)
 
 ```bash
 mvn flyway:migrate
