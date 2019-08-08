@@ -7,8 +7,8 @@
 [GitHub deploy key](https://developer.github.com/v3/guides/managing-deploy-keys/#deploy-keys)  
 [Bootstrap](https://v3.bootcss.com/getting-started/)
 [Github OAuth](https://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/)  
-[菜鸟教程](https://www.runoob.com/mysql/mysql-select-query.html)
-
+[菜鸟教程](https://www.runoob.com/mysql/mysql-select-query.html)  
+[thymeleaf](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#setting-attribute-values)
 ## 工具
 [Git](https://git-scm.com/download)  
 [Visual Paradigm](https://www.visual-paradigm.com)  
@@ -17,4 +17,11 @@
 
 ```bash
 mvn flyway:migrate
+```
+
+**解决h2数据库默认用户密码问题**
+执行以下代码
+```sql
+CREATE USER IF NOT EXISTS sa PASSWORD '123';
+ALTER USER sa admin true ;
 ```
