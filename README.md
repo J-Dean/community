@@ -17,6 +17,7 @@
 
 ```bash
 mvn flyway:migrate
+mvn -Dmybatis.generator.overwrite=true mybatis-generator:generate   
 ```
 
 **解决h2数据库默认用户密码问题**
