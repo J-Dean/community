@@ -13,8 +13,10 @@
 [Git](https://git-scm.com/download)  
 [Visual Paradigm](https://www.visual-paradigm.com)  
 [flyway](https://flywaydb.org/getstarted/firststeps/maven)  
-[lombok](https://projectlombok.org)
+[lombok](https://projectlombok.org)  
+[Postman插件](chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff/index.html)
 
+## 脚本
 ```bash
 mvn flyway:migrate
 mvn -Dmybatis.generator.overwrite=true mybatis-generator:generate   
